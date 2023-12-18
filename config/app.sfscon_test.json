@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "sfscon",
+    "scheme": "sfscon",
+    "slug": "sfscon",
+    "version": "1.1.12",
+    "orientation": "portrait",
+    "icon": "./assets/logo_blue.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_screen.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2c92c0e9-c32b-4b82-b024-9b6b97db085b"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "Allow sfs-con application to access your Photo library, this will allow you to set/change profile picture from your phone's photo library.",
+        "NSPhotoLibraryUsageDescription": "Allow sfs-con application to access your Photo library, this will allow you to set/change profile picture from your phone's photo library.",
+        "NSCameraUsageDescription": "Allow sfs-con application to access Camera, this will allow you to Scan QR codes and also to change a profile picture "
+      },
+      "buildNumber": "1.1.12",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.digitalcube.sfscon"
+    },
+    "android": {
+      "versionCode": 9,
+      "permissions": [
+        "android.permission.READ_INTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA"
+      ],
+      "softwareKeyboardLayoutMode": "pan",
+      "icon": "./assets/logo_blue.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_blue_adaptive.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.digitalcube.sfscon"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c92c0e9-c32b-4b82-b024-9b6b97db085b"
+      },
+      "installation": "test"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

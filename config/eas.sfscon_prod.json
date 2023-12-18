@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 0.51.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development"
+    },
+    "test": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "channel": "test"
+    },
+    "production": {
+      "channel": "prod",
+      "env": {
+        "ENVIRONMENT": "prod",
+        "BUILD_DATE": "18 Oct 2023 10:48",
+        "BUILD_VERSION": "324008d"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

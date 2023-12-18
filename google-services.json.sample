@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "__PROJECT_NUMBER__",
+    "project_id": "sfscon-app",
+    "storage_bucket": "sfscon-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "__ID__",
+        "android_client_info": {
+          "package_name": "it.sfscon.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "__KEY__",
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

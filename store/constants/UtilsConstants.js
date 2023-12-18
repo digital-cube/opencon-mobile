@@ -1,0 +1,3 @@
+export const SET_TOAST_MESSAGE = "SET_TOAST_MESSAGE";
+export const SET_SHOW_LOADER = "SET_SHOW_LOADER";
+export const SET_HIDE_LOADER = "SET_HIDE_LOADER";

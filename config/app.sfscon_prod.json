@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "SFScon",
+    "owner": "digitalcube",
+    "scheme": "sfscon",
+    "slug": "SFScon",
+    "version": "1.2.8",
+    "orientation": "portrait",
+    "icon": "./assets/logo_blue.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo_blue.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash_screen.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a0da573f-de88-4259-88d9-dbc311fe13e6"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "Allow sfs-con application to access your Photo library, this will allow you to set/change profile picture from your phone's photo library.",
+        "NSPhotoLibraryUsageDescription": "Allow sfs-con application to access your Photo library, this will allow you to set/change profile picture from your phone's photo library.",
+        "NSCameraUsageDescription": "Allow sfs-con application to access Camera, this will allow you to Scan QR codes and also to change a profile picture "
+      },
+      "buildNumber": "1.2.8",
+      "supportsTablet": true,
+      "bundleIdentifier": "it.sfscon.app"
+    },
+    "android": {
+      "versionCode": 23,
+      "permissions": [
+        "android.permission.READ_INTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA"
+      ],
+      "softwareKeyboardLayoutMode": "pan",
+      "icon": "./assets/logo_blue.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_blue_adaptive.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "it.sfscon.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0da573f-de88-4259-88d9-dbc311fe13e6"
+      },
+      "installation": "production"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
